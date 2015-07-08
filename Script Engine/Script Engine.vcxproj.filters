@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Script Engine Data">
+      <UniqueIdentifier>{b90616c5-fa3f-4ded-86b7-25dc540cd27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script Engine Data\Lua Script Engine">
+      <UniqueIdentifier>{4214ef96-ee9d-44f7-ba5e-46c81db9fb61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script Engine Data\Lua Script Engine\Function Interface">
+      <UniqueIdentifier>{ec331b58-bb31-455a-a7c1-f4c82dde6141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script Engine Data\Lua Script Engine\Callback">
+      <UniqueIdentifier>{cb041885-a275-43da-83f2-2724bd80033f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script Engine Data\Remote Process">
+      <UniqueIdentifier>{1a87affc-8e4b-4aae-bb2f-554413936819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script Engine Data\User API">
+      <UniqueIdentifier>{6481a1ba-f7b3-4fd8-8f0d-12c53ee4f73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script Engine Data\Command Line Input">
+      <UniqueIdentifier>{0df94ed3-6b3d-4348-b30c-38746ed36b82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\LuaInterface.h">
+      <Filter>Script Engine Data\Lua Script Engine\Function Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\Callback.h">
+      <Filter>Script Engine Data\Lua Script Engine\Callback</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteProcess.h">
+      <Filter>Script Engine Data\Remote Process</Filter>
+    </ClInclude>
+    <ClInclude Include="UserAPI.h">
+      <Filter>Script Engine Data\User API</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdLineInterface.h">
+      <Filter>Script Engine Data\Command Line Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\LuaAPI.h">
+      <Filter>Script Engine Data\Lua Script Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CVarSystem.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\LuaInterface.cpp">
+      <Filter>Script Engine Data\Lua Script Engine\Function Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\Callback.cpp">
+      <Filter>Script Engine Data\Lua Script Engine\Callback</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteProcess.cpp">
+      <Filter>Script Engine Data\Remote Process</Filter>
+    </ClCompile>
+    <ClCompile Include="UserAPI.cpp">
+      <Filter>Script Engine Data\User API</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdLineInterface.cpp">
+      <Filter>Script Engine Data\Command Line Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\LuaAPI.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CVarSystem.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
